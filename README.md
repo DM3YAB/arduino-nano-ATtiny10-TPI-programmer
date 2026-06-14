@@ -1,7 +1,7 @@
-# arduino-nano-ATtiny10-TPI-programmer
-Arduino Nano based TPI programmer for ATtiny10 with Intel HEX upload, flash verify, config reset and UART memory dump.
+# arduino-nano-ATtiny10-TPI-programmer  
 
-Arduino Nano based TPI programmer for ATtiny10 microcontrollers.
+Arduino Nano based TPI programmer for ATtiny10 microcontrollers
+... with HEX upload, flash verify, config reset and UART memory dump.
 
 ## Features
 
@@ -46,6 +46,18 @@ The TPI interface uses a single bidirectional data line (TPIDATA), therefore bot
 3. Send an Intel HEX file over serial.
 4. The programmer writes and verifies the flash.
 5. After success, the ATtiny10 is released and starts running.
+
+## Example
+
+A simple ATtiny10 LED blink example is provided.
+
+Source code:
+- `examples/blink/blink.cpp`
+
+Precompiled HEX file:
+- `examples/blink/blink.hex`
+
+The HEX file can be uploaded directly using the programmer.
 
 ## License
 
