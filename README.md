@@ -29,6 +29,7 @@ Arduino Nano based TPI programmer for ATtiny10 microcontrollers.
 | D10 / SS   | 330 Ω | RESET / PB3 |
 | D11 / MOSI | 330 Ω |  TPIDATA / PB0 |
 | D12 / MISO | 330 Ω |  TPIDATA / PB0 |
+| D13 / SCK  | 330 Ω | TPICLK/PB1 |
 
 The TPI interface uses a single bidirectional data line (TPIDATA), therefore both MOSI and MISO are connected to PB0 through separate 330 Ω resistors.
 
