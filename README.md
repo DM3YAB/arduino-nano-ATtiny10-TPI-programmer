@@ -47,6 +47,15 @@ The TPI interface uses a single bidirectional data line (TPIDATA), therefore bot
 4. The programmer writes and verifies the flash.
 5. After success, the ATtiny10 is released and starts running.
 
+## Development Environment
+
+Tested with:
+
+- Arduino IDE 2.x
+- ATtiny10Core 2.1.0
+- Arduino Nano V3
+- ATtiny10
+
 ## Example
 
 A simple ATtiny10 LED blink example is provided.
